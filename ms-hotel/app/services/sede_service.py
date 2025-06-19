@@ -19,7 +19,7 @@ class SedesService():
             
             await self.db.commit(conn=conn)
             
-            return row[0]
+            return row[1]
         except Exception as e:
             logging.error(f"Error en sedes_service: {e}")
             raise e
