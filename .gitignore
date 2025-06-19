@@ -3,11 +3,8 @@ __pycache__/
 *.py[cod]
 
 # Entorno virtual
-.venv/
-venv/
+.tvenv/
 
-# Base de datos SQLite
-*.db
 
 # Variables de entorno
 .env
@@ -15,8 +12,3 @@ venv/
 # Archivos del sistema / editores
 .DS_Store
 .vscode/
-
-# Documentación y medios
-*.pdf
-*.odt
-*.png
